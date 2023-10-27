@@ -53,7 +53,6 @@ export default function PostForm() {
       className="grid grid-cols-1 gap-8 md:grid-cols-2"
     >
       <div>
-        {JSON.stringify(postFormik.errors)}
         <div className="field">
           <Input
             isRequired
