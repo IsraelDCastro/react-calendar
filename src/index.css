@@ -7,3 +7,7 @@
 .field:not(:last-child) {
   @apply mb-4;
 }
+
+.highlight {
+  @apply text-sky-500;
+}
