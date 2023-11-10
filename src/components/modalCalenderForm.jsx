@@ -8,6 +8,7 @@ import {
 } from "@nextui-org/react";
 import PropTypes from "prop-types";
 import PostForm from "./_form";
+import { de } from "date-fns/locale";
 
 export default function ModalCalendarForm({ onOpenChange, isOpen }) {
   return (
